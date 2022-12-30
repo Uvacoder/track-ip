@@ -3,9 +3,9 @@ import React from "react";
 import L from "leaflet";
 import iconUrl from "../images/icon-location.svg";
 import "leaflet/dist/leaflet.css";
-import { MapContainer, TileLayer, Marker } from "react-leaflet";
+import { Map as MapContainer, TileLayer, Marker } from "react-leaflet";
 
-export default function MapContainer({ lat, lng }) {
+export default function Map({ lat, lng }) {
   const position = [lat, lng];
   const Icon = L.icon({
     iconUrl: iconUrl,
