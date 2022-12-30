@@ -80,7 +80,7 @@ export default function App() {
         HandleKeypress={HandleKeypress}
         data={data}
       />
-      <Map lat={data.lat} lng={data.lng} />
+      <MapContainer lat={data.lat} lng={data.lng} />
     </>
   );
 }
