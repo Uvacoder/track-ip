@@ -1,7 +1,7 @@
 import React from "react";
 
 import ContentContainer from "./components/ContentContainer";
-import Map from "./components/MapContainer";
+import MapContainer from "./components/MapContainer";
 
 export default function App() {
   const [data, setData] = React.useState({
